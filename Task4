@@ -1,0 +1,20 @@
+Sum of Even numbers from 1 to 100?
+Code:
+public class EvenSum {  
+
+    public static void main(String []args) {
+
+        int n = 2;	
+        int Sum = 0;
+        while (n <= 100) {
+            Sum += n;
+            n += 2;
+        }
+        System.out.println(Sum);
+    }
+}
+Logic Explanation:
+Here we are going to calculate the sum of all even numbers from 1 to 100. 
+I took the initial number n=2 because 2 is the starting even number from 1 to 100.
+We know that all numbers divided by 2 is even numbers so we are going to add 2 every time and adding the value to the current value of sum for every iteration we iterate up to the value n<=100.
+Then we are going to stop the iteration and returns the sum and printing the value of sum.
